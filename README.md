@@ -49,3 +49,27 @@ Detailed write-ups for each major decision live in [`/docs/decisions`](./docs/de
 ### Setup
 
 ```bash
+# Clone the repo
+git clone https://github.com//nest-auth-server.git
+cd nest-auth-server
+
+# Install dependencies
+npm install
+
+# Copy environment template
+cp .env.example .env
+# Edit .env with your database and Redis credentials
+
+# Run in development mode
+npm run start:dev
+```
+
+The server starts on `http://localhost:3000`.
+
+## Project Status
+
+🚧 **In active development.** Currently implementing core JWT authentication and module structure. See commit history for progress.
+
+## License
+
+MIT
